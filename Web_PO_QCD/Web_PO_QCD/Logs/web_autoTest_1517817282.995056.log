@@ -1,0 +1,17 @@
+ Mon, 05 Feb 2018 15:54:53  INFO test_investment.py test_invest_no100 [ line:57 ] 测试用例：投资异常用例-投资金额不是100的整数倍。
+ Mon, 05 Feb 2018 15:55:52  INFO test_investment.py test_investment_normal [ line:29 ] 测试用例：投资成功-从首页进入标页面，在标详情页面进行投资
+ Mon, 05 Feb 2018 15:57:03  INFO BasePage.py save_img [ line:32 ] 截图位置：D:\Pycharm-workspace\python-selenium-new\after_po_v2\Images/user_investmentOK_error.png
+ Mon, 05 Feb 2018 15:57:04  ERROR test_investment.py test_investment_normal [ line:49 ] Excetion Error：
+Traceback (most recent call last):
+  File "D:\Pycharm-workspace\python-selenium-new\after_po_v2\TestCases\test_investment.py", line 45, in test_investment_normal
+    userinfo_page.check_investRecord_exists_byTimeAndName(bid_timeInfo[0],bid_timeInfo[1],TD.bidname)
+AttributeError: 'module' object has no attribute 'bidname'
+ Mon, 05 Feb 2018 15:57:10  INFO test_login.py setUp [ line:16 ] ========start test login=========
+ Mon, 05 Feb 2018 15:57:16  INFO test_login.py test_login_noPasswd [ line:45 ] 测试用例：异常用例 - 密码为空
+ Mon, 05 Feb 2018 15:57:19  INFO test_login.py tearDown [ line:22 ] ========end test login=========
+ Mon, 05 Feb 2018 15:57:24  INFO test_login.py setUp [ line:16 ] ========start test login=========
+ Mon, 05 Feb 2018 15:57:31  INFO test_login.py test_login_noUsername [ line:37 ] 测试用例：异常用例 - 用户名为空
+ Mon, 05 Feb 2018 15:57:34  INFO test_login.py tearDown [ line:22 ] ========end test login=========
+ Mon, 05 Feb 2018 15:57:40  INFO test_login.py setUp [ line:16 ] ========start test login=========
+ Mon, 05 Feb 2018 15:57:46  INFO test_login.py test_login_ok [ line:28 ] 测试用例：正常登陆前程贷。
+ Mon, 05 Feb 2018 15:58:12  INFO test_login.py tearDown [ line:22 ] ========end test login=========
