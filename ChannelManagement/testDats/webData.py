@@ -1,0 +1,1 @@
+web_url = 'http://smart-abs.uat.sqbj.com/'
