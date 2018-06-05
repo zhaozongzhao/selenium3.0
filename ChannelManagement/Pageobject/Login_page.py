@@ -50,6 +50,8 @@ class Login_page_object(BasePage):
         time.sleep(3)
         self.password_input(password)
         self.login_input()
+        js="var q=document.documentElement.scrollTop=100000"
+        self.driver.execute_script(js)
 
 
 

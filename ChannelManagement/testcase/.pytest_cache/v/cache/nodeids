@@ -1,5 +1,3 @@
 [
-  "test_login.py::TestUserPassword::()::test_user_success",
-  "test_login.py::TestUserPassword::()::test_user_null",
-  "test_login.py::TestUserPassword::()::test_password_null"
+  "test_order.py::Testorder::()::test_order"
 ]

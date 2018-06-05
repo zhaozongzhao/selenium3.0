@@ -1,6 +1,6 @@
 #登陆成功
 login_user_success = 'zongzhao7'
-login_password_success = '123456'
+login_password_success = '111111'
 
 
 #用户名为空
