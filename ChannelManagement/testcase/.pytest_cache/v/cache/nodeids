@@ -1,3 +1,5 @@
 [
-  "test_order.py::Testorder::()::test_order"
+  "test_order.py::Testorder::()::test_order_sum",
+  "test_order.py::Testorder::()::test_query_success",
+  "test_order.py::Testorder::()::test_help_success"
 ]
