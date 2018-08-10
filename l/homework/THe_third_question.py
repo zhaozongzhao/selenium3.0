@@ -10,6 +10,7 @@ def print_directory_contents(sPath):
      for root, dirs, files in os.walk(sPath):
             # root #当前目录路径 dirs #当前路径下所有子目录files) #当前路径下所有非目录子文件
         for i in files:
+             # os.path.abspath()返回路径规范化的绝对路径
             print(os.path.abspath(i))
 if __name__ == '__main__':
     print_directory_contents('D:\\test')

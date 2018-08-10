@@ -3,7 +3,7 @@
 
 import re
 from collections import Counter
-c = Counter()
+c = Counter()  #创建一个新的counter
 def Word_counts():
   '''单次排序'''
   with open('a.txt','r',encoding='utf-8') as f:
