@@ -1,1 +1,4 @@
-{}
+{
+  "testcase/test_order.py::Testorder::()::test_order_sum": true,
+  "testcase/test_order.py::Testorder::()::test_query_success": true
+}

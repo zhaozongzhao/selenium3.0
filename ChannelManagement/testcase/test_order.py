@@ -21,7 +21,7 @@ class Testorder(object):
         self.OR.driver.close()
 
 
-    # @pytest.mark.order
+    @pytest.mark.order
     def test_order_sum(self,login):
         '''获取订单数量'''
         self.logger.info('进入订单管理界面')
@@ -31,7 +31,7 @@ class Testorder(object):
         self.logger.info('获取的订单数量{}== {}'.format(sum,OD.succeed_sum))
         assert sum == OD.succeed_sum
 
-    # @pytest.mark.order
+    @pytest.mark.order
     def test_query_success(self,login):
         self.OR = OR(login)
         time.sleep(5)

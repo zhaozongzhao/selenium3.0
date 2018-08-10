@@ -1,1 +1,1 @@
-web_url = 'http://smart-abs.uat.sqbj.com/'
+web_url = 'http://partner.uat.sqbj.com/#!/'

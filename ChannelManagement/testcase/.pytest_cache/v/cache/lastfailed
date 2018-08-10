@@ -1,4 +1,7 @@
 {
   "test_login.py::TestUserPassword::()::test_login_success": true,
+  "test_login.py::TestUserPassword::()::test_password_null": true,
+  "test_login.py::TestUserPassword::()::test_user_null": true,
+  "test_login.py::TestUserPassword::()::test_user_success": true,
   "test_order.py::Testorder::()::test_order": true
 }

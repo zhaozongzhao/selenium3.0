@@ -2,5 +2,7 @@
   "testcase/test_login.py::TestUserPassword::()::test_user_success",
   "testcase/test_login.py::TestUserPassword::()::test_user_null",
   "testcase/test_login.py::TestUserPassword::()::test_password_null",
-  "testcase/test_order.py::Testorder::()::test_order"
+  "testcase/test_order.py::Testorder::()::test_order_sum",
+  "testcase/test_order.py::Testorder::()::test_query_success",
+  "testcase/test_order.py::Testorder::()::test_help_success"
 ]
