@@ -39,12 +39,12 @@ class LoginPage(object):
         return loginbutton
 
     def login(self):
-        self.driver.switch_to.frame(login.getFrame())
+        self.driver.switch_to.frame(self.getFrame())
         time.sleep(2)
-        self.login.getclick().click()
-        self.login.getUserName().send_keys('3031371046')
-        self.login.getPassword().send_keys('zzz284117')
-        self.login.getLoginButton().click()
+        self.getclick().click()
+        self.getUserName().send_keys('3031371046')
+        self.getPassword().send_keys('zzz284117')
+        self.getLoginButton().click()
         self.driver.switch_to.default_content()  # 切换到最上层
         time.sleep(5)
 
