@@ -1,13 +1,15 @@
 from selenium import webdriver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
-from  data_driven.PageJectVar import var
-from data_driven.Util import ParsePageObjectRepository
+import traceback
+from data_driven.Util.ParsePageObjectRepository import *
+from data_driven.PageJectVar.var import *
+
 class LoginPage(object):
 
     def __init__(self,driver):
         self.driver = driver
-        self.paser_page_object = ParsePageObjectRepository.ParsePageObjectRepository(var.PaserPageObject_path)
+        self.paser_page_object = ParsePageObjectRepository()
         self.login_iteim = self.paser_page_object.getItemSection('qqmail_login')
         print(self.login_iteim)
         self.wait = WebDriverWait(self.driver,10,0.2)

@@ -6,12 +6,14 @@ from  data_driven.PageJectVar import var
 from data_driven.Util import ParsePageObjectRepository
 from selenium.common.exceptions import TimeoutException,NoSuchElementException
 import traceback
+from data_driven.PageObject.LoginPage import *
+from data_driven.Action.login import  *
 
 class Addressbook_Page(object):
 
     def __init__(self,driver):
         self.driver = driver
-        self.paser_page_object = ParsePageObjectRepository.ParsePageObjectRepository(var.PaserPageObject_path)
+        self.paser_page_object = ParsePageObjectRepository()
         self.addressbook_iteim = self.paser_page_object.getItemSection('qqmail_homepage')
         print(self.addressbook_iteim)
         self.wait = WebDriverWait(self.driver,10,0.2)
