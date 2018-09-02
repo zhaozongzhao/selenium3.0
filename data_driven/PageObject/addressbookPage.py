@@ -22,42 +22,42 @@ class Addressbook_Page(object):
 
     def get_address_book(self):
         locateType,locateExpression  =  self.addressbook_iteim['get_address_book'].split('>')
-        address_book = self.wait.until(lambda x : x.find_element(by=locateType,value = locateExpression))
+        address_book =  getElement(self.driver,locateType,locateExpression)
         return address_book
 
     def getFrame(self):
         locateType,locateExpression  =  self.addressbook_iteim['getframe'].split('>')
-        frame = self.wait.until(lambda x : x.find_element(by=locateType,value = locateExpression))
+        frame =  getElement(self.driver,locateType,locateExpression)
         return frame
 
     def create_address_book(self):
         locateType,locateExpression  =  self.addressbook_iteim['create_address_book'].split('>')
-        add_button =self.wait.until(lambda x : x.find_element(by=locateType,value = locateExpression))
+        add_button =  getElement(self.driver,locateType,locateExpression)
         return add_button
 
     def create_name_address(self):
         locateType,locateExpression  =  self.addressbook_iteim['create_name_address'].split('>')
-        create_name  = self.wait.until(lambda x : x.find_element(by=locateType,value = locateExpression))
+        create_name =  getElement(self.driver,locateType,locateExpression)
         return create_name
 
     def create_email_address(self):
         locateType,locateExpression  =  self.addressbook_iteim['create_email_addres'].split('>')
-        create_email  = self.wait.until(lambda x : x.find_element(by=locateType,value = locateExpression))
+        create_email = getElement(self.driver,locateType,locateExpression)
         return create_email
 
     def create_phone_address(self):
         locateType,locateExpression  =  self.addressbook_iteim['create_phone_address'].split('>')
-        create_phone  = self.wait.until(lambda x : x.find_element(by=locateType,value = locateExpression))
+        create_phone = getElement(self.driver,locateType,locateExpression)
         return create_phone
 
     def save_button_address(self):
         locateType,locateExpression  =  self.addressbook_iteim['save_button_address'].split('>')
-        save_button  = self.wait.until(lambda x : x.find_element(by=locateType,value = locateExpression))
+        save_button = getElement(self.driver,locateType,locateExpression)
         return  save_button
 
     def out_button_email(self):
         locateType,locateExpression  =  self.addressbook_iteim['out_button_email'].split('>')
-        out_button = self.wait.until(lambda x : x.find_element(by=locateType,value = locateExpression))
+        out_button = getElement(self.driver,locateType,locateExpression)
         return  out_button
 
     def addressbook(self):

@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 import traceback
 from data_driven.Util.ParsePageObjectRepository import *
 from data_driven.PageJectVar.var import *
+from data_driven.Util.ObjectMap import *
 
 class LoginPage(object):
 
@@ -15,29 +16,30 @@ class LoginPage(object):
         self.wait = WebDriverWait(self.driver,10,0.2)
 
     def getFrame(self):
-        locateType,locateExpression  =  self.login_iteim['login_page.frame'].split('>')
+        locateType,locateExpression =  self.login_iteim['login_page.frame'].split('>')
         print(locateType,locateExpression)
-        frame = self.wait.until(lambda x : x.find_element(by=locateType,value = locateExpression))
+        frame = getElement(self.driver,locateType,locateExpression)
         return frame
+
     def getclick(self):
         locateType, locateExpression = self.login_iteim['login_page.click'].split('>')
         print(locateType, locateExpression)
-        click = self.wait.until(lambda x: x.find_element(by=locateType, value=locateExpression))
+        click = getElement(self.driver,locateType,locateExpression)
         return click
 
     def getUserName(self):
         locateType, locateExpression = self.login_iteim['login_page.username'].split('>')
-        usreName = self.wait.until(lambda x: x.find_element(by=locateType,value = locateExpression))
+        usreName = getElement(self.driver,locateType,locateExpression)
         return usreName
 
     def getPassword(self):
         locateType, locateExpression = self.login_iteim['login_page.password'].split('>')
-        password = self.wait.until(lambda x: x.find_element(by=locateType,value = locateExpression))
+        password = getElement(self.driver,locateType,locateExpression)
         return password
 
     def getLoginButton(self):
         locateType,locateExpression = self.login_iteim['login_page.loginbutton'].split('>')
-        loginbutton = self.wait.until(lambda x: x.find_element(by=locateType,value = locateExpression))
+        loginbutton = getElement(self.driver,locateType,locateExpression)
         return loginbutton
 
     def login(self):
