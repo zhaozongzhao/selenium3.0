@@ -6,18 +6,13 @@ from selenium.common.exceptions import TimeoutException,NoSuchElementException
 import traceback #捕获并打印异常
 from  data_driven.PageObject.LoginPage import *
 from  data_driven.PageObject.addressbookPage import *
+from  data_driven.Action.add_contact import *
+from  data_driven.Action.login import  *
+
 driver = webdriver.Chrome()
 driver.get('https://mail.qq.com/')
 wait = WebDriverWait(driver, 10, 0.2)
-lp = LoginPage(driver)
-addressbook = Addressbook_Page(driver)
+login(driver,'3031371046','zzz284117')
+add_contact(driver,'中岛一','2206321864@qq.com','18301565568')
+driver.quit()
 
-try:
-    lp.login()
-    addressbook.addressbook()
-
-except Exception as e:
-    traceback.print_exc(e)
-finally:
-    driver.close()
-    print('运行结束')

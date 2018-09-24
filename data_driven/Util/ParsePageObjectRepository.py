@@ -1,10 +1,12 @@
 from configparser import ConfigParser
+from data_driven.PageJectVar.var import PaserPageObject_path
+
 
 class ParsePageObjectRepository(object):
 
-    def __init__(self,config_path):
-        self.cf = ConfigParser()
-        self.cf.read(config_path,encoding='UTF8')
+    def __init__(self):
+        self.cf = ConfigParser() #生成解析器
+        self.cf.read(PaserPageObject_path,encoding='UTF8') #直接用变量代替
 
     def getItemSection(self,sectionName):
         return  dict(self.cf.items(sectionName))
@@ -13,7 +15,7 @@ class ParsePageObjectRepository(object):
         return self.cf.get(sectionName,optionName)
 
 if __name__ == '__main__':
-    pp = ParsePageObjectRepository('F:\gitstorehouse\selenium3.0\data_driven\Conf\/1.ini')
+    pp = ParsePageObjectRepository()
     print(pp.getItemSection('qqmail_login'))
     print(pp.getOptionValue('qqmail_addcontactspage','addcontacts_page.createcontactsbtn'))
 
