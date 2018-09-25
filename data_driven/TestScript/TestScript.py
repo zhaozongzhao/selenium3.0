@@ -4,10 +4,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException,NoSuchElementException
 import traceback #捕获并打印异常
-from  data_driven.PageObject.LoginPage import *
-from  data_driven.PageObject.addressbookPage import *
-from  data_driven.Action.add_contact import *
-from  data_driven.Action.login import  *
+from  PageObject.LoginPage import *
+from  PageObject.addressbookPage import *
+from  Action.add_contact import *
+from  Action.login import  *
 
 driver = webdriver.Chrome()
 driver.get('https://mail.qq.com/')

@@ -2,12 +2,12 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from  data_driven.PageJectVar import var
-from data_driven.Util import ParsePageObjectRepository
+from  PageJectVar import var
+from Util import ParsePageObjectRepository
 from selenium.common.exceptions import TimeoutException,NoSuchElementException
 import traceback
-from data_driven.PageObject.LoginPage import *
-from data_driven.Action.login import  *
+from PageObject.LoginPage import *
+from Action.login import  *
 
 class Addressbook_Page(object):
 

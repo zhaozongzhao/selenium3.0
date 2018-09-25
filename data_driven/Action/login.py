@@ -1,4 +1,4 @@
-from  data_driven.PageObject.LoginPage import *
+from  PageObject.LoginPage import *
 
 from selenium import webdriver
 
