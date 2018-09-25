@@ -1,5 +1,5 @@
 
-from data_driven.PageObject.addressbookPage import *
+from PageObject.addressbookPage import *
 from  selenium import webdriver
 
 def add_contact(driver,name,email,phone):

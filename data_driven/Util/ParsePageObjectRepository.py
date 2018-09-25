@@ -1,5 +1,5 @@
 from configparser import ConfigParser
-from data_driven.PageJectVar.var import PaserPageObject_path
+from PageJectVar.var import PaserPageObject_path
 
 
 class ParsePageObjectRepository(object):

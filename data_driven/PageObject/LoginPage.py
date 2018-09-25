@@ -2,9 +2,9 @@ from selenium import webdriver
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 import traceback
-from data_driven.Util.ParsePageObjectRepository import *
-from data_driven.PageJectVar.var import *
-from data_driven.Util.ObjectMap import *
+from Util.ParsePageObjectRepository import *
+from PageJectVar.var import *
+from Util.ObjectMap import *
 
 class LoginPage(object):
 
