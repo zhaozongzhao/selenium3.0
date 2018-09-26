@@ -15,7 +15,7 @@ class parseExcel(object):
 
     #设置当前操作的sheet对象,通过指数index,指定sheet
     def set_sheet_by_index(self,sheet_ineex):
-        sheet_name =  self.workbook.sheetnames
+        sheet_name =  self.workbook.sheetnames[sheet_ineex]
         self.sheet =  self.workbook[sheet_name]
         return self.sheet
 
@@ -24,7 +24,6 @@ class parseExcel(object):
         return self.sheet.title
 
     #设置当前要操作的sheet对象,使用sheet名称获取相应的sheet
-
     def set_sheet_by_name(self,sheet_name):
         self.sheet  =  self.workbook[sheet_name]
         return self.sheet
@@ -47,19 +46,19 @@ class parseExcel(object):
 
     #获取sheet所有行对象
     def get_all_rows(self):
-        return list(self.sheet.rows())
+        return list(self.sheet.iter_rows())
 
     #获取sheet所有列对象
-    def get_all_cols(self,col_no):
-        return  list(self.sheet.columns())
+    def get_all_cols(self):
+        return  list(self.sheet.iter_cols())
 
-    #从默认的sheet中获取某一行，第一列从0开始
+    #从默认的sheet中获取某一列，第一列从0开始
     def  get_single_col(self,col_no):
-        return self.sheet.get_all_cols()[col_no]
+        return self.get_all_cols()[col_no]
 
     #从默认的sheet中获取某一行，第一行从0开始
     def get_singel_row(self,row_no):
-        return  self.sheet.get_all_rows()[row_no]
+        return  self.get_all_rows()[row_no]
 
     #从默认sheet中，通过提供的行号和列号，获取单元格,注意单元格行号和列从1开始
     def get_cell(self,row_no,col_no):
@@ -88,5 +87,22 @@ class parseExcel(object):
         self.workbook.save(self.excelpath)
 
 if __name__ == '__main__':
-  #测试单元
-
+   #测试单元
+   p = parseExcel(Excelobject_path)
+   print('获取默认sheet:',p.get_sheet_name())
+   print('获取sheet索引为1',p.set_sheet_by_index(1))
+   print('获取默认sheet:',p.get_sheet_name())
+   print('设置sheet索引为0',p.set_sheet_by_index(0))
+   print('获取默认shet',p.get_sheet_name())
+   print('获取最大行数',p.get_sheet_max_row())
+   print('获取最大列',p.get_sheet_max_column())
+   print('获取最小起始行数',p.get_min_row_no())
+   print('获取最小起始列数',p.get_min_column_no())
+   print('获取所有行的对象',p.get_all_rows())
+   print('获取所有列的对象',p.get_all_cols())
+   print('获取某一列',p.get_single_col(2))
+   print('获取某一行',p.get_singel_row(2))
+   print('获取行号和列号(2,2)单元格',p.get_cell(2,2))
+   print('获取行号和列号(2,2)单元格内容呢',p.get_cell_content(2,2))
+   print('通过行号和列号写入内容',p.write_cell_content(2,2,'邮箱地址'))
+   print('通过行号和列号写入时间',p.write_cell_content_time(2,7))
