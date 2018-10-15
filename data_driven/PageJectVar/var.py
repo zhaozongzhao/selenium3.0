@@ -9,3 +9,6 @@ PaserPageObject_path = path + '/Conf/PageObjectRepository.ini'
 #数据表格路径
 Excelobject_path =  path + '/Testdata/工作簿2.xlsx'
 
+#日志文件
+logobject_path =  path +'/Conf/logger.conf'
+

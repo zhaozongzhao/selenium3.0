@@ -15,5 +15,11 @@ def add_contact(driver,name,email,phone):
     addressbook.create_email_address().send_keys(email)
     addressbook.create_phone_address().send_keys(phone)
     addressbook.save_button_address().click()
+    driver.switch_to.default_content()
+
+
+def add_out_button(driver):
+    addressbook = Addressbook_Page(driver)
+    addressbook.out_button().click
 
 

@@ -60,6 +60,11 @@ class Addressbook_Page(object):
         out_button = getElement(self.driver,locateType,locateExpression)
         return  out_button
 
+    def out_button(self):
+        locateType,locateExpression  =  self.addressbook_iteim['out_button'].split('>')
+        out_button = getElement(self.driver,locateType,locateExpression)
+        return  out_button
+
     def addressbook(self):
             self.get_address_book().click()
             self.driver.switch_to.frame(self.getFrame())
