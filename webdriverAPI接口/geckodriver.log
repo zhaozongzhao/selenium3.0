@@ -1,0 +1,167 @@
+1548259572719	geckodriver	INFO	geckodriver 0.19.1
+1548259572749	geckodriver	INFO	Listening on 127.0.0.1:50447
+1548259574829	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.FYjw7KMwESC2"
+1548259578678	Marionette	DEBUG	Received observer notification profile-after-change
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1548259579373	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1548259579492	Marionette	DEBUG	Received observer notification command-line-startup
+1548259579492	Marionette	DEBUG	Received observer notification nsPref:changed
+1548259579492	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1548259579649	Marionette	DEBUG	Received observer notification toplevel-window-ready
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1548259585444	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1548259585444	Marionette	DEBUG	Waiting for delayed startup...
+1548259585659	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1548259585660	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1548259585661	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1548259585662	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1548259585663	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1548259585767	Marionette	INFO	Listening on port 50453
+1548259585767	Marionette	DEBUG	Remote service is active
+1548259586847	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50485
+1548259586850	Marionette	TRACE	0 -> [0,1,"newSession",{"capabilities":{"desiredCapabilities":{}}}]
+1548259586851	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1548259838508	geckodriver	INFO	geckodriver 0.19.1
+1548259838533	geckodriver	INFO	Listening on 127.0.0.1:50696
+1548259840597	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.DFUNnmuhLZUY"
+1548259841695	Marionette	DEBUG	Received observer notification profile-after-change
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1548259841955	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1548259842013	Marionette	DEBUG	Received observer notification command-line-startup
+1548259842013	Marionette	DEBUG	Received observer notification nsPref:changed
+1548259842013	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1548259842094	Marionette	DEBUG	Received observer notification toplevel-window-ready
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1548259844219	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1548259844219	Marionette	DEBUG	Waiting for delayed startup...
+1548259844375	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1548259844376	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1548259844378	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1548259844379	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1548259844379	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1548259844461	Marionette	INFO	Listening on port 50706
+1548259844461	Marionette	DEBUG	Remote service is active
+1548259844780	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50720
+1548259844806	Marionette	TRACE	0 -> [0,1,"newSession",{"capabilities":{"desiredCapabilities":{}}}]
+1548259844807	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1548260374350	geckodriver	INFO	geckodriver 0.19.1
+1548260374396	geckodriver	INFO	Listening on 127.0.0.1:51787
+1548260376431	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.BTTwI1ChDsoR"
+1548260377599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548260377599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1548260377861	Marionette	DEBUG	Received observer notification profile-after-change
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1548260378127	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1548260378224	Marionette	DEBUG	Received observer notification command-line-startup
+1548260378225	Marionette	DEBUG	Received observer notification nsPref:changed
+1548260378225	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1548260378334	Marionette	DEBUG	Received observer notification toplevel-window-ready
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1548260381053	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1548260381053	Marionette	DEBUG	Waiting for delayed startup...
+1548260381315	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1548260381316	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1548260381317	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1548260381318	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1548260381319	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1548260381319	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1548260381423	Marionette	INFO	Listening on port 51795
+1548260381423	Marionette	DEBUG	Remote service is active
+1548260381945	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:51820
+1548260381949	Marionette	TRACE	0 -> [0,1,"newSession",{"capabilities":{"desiredCapabilities":{}}}]
+1548260381949	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1548603518718	geckodriver	INFO	geckodriver 0.19.1
+1548603518810	geckodriver	INFO	Listening on 127.0.0.1:50819
+1548603520843	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.diHn7DR5RPOx"
+1548603525366	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548603525367	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1548603525764	Marionette	DEBUG	Received observer notification profile-after-change
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1548603526535	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1548603526707	Marionette	DEBUG	Received observer notification command-line-startup
+1548603526707	Marionette	DEBUG	Received observer notification nsPref:changed
+1548603526707	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1548603526904	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1548603534855	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1548603534856	Marionette	DEBUG	GFX sanity window detected, waiting until it has been closed...
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1548603537050	Marionette	DEBUG	Received observer notification domwindowclosed
+1548603537051	Marionette	DEBUG	Waiting for delayed startup...
+1548603537187	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1548603537188	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1548603537190	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1548603537191	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1548603537192	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1548603537193	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1548603537405	Marionette	INFO	Listening on port 50829
+1548603537406	Marionette	DEBUG	Remote service is active
+1548603537484	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50884
+1548603537563	Marionette	TRACE	0 -> [0,1,"newSession",{"capabilities":{"desiredCapabilities":{}}}]
+1548603537564	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+[Child 5972, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1551710641143	geckodriver	INFO	geckodriver 0.19.1
+1551710641254	geckodriver	INFO	Listening on 127.0.0.1:52039
+1551710643242	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.j1nrMdD4MZ1W"
+1551710647092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551710647093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551710647575	Marionette	TRACE	Received observer notification profile-after-change
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1551710648734	Marionette	TRACE	Received observer notification toplevel-window-ready
+1551710648982	Marionette	TRACE	Received observer notification command-line-startup
+1551710648983	Marionette	TRACE	Received observer notification nsPref:changed
+1551710648983	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1551710649329	Marionette	TRACE	Received observer notification toplevel-window-ready
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1551710654298	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1551710654299	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1551710654654	Marionette	TRACE	All scripts recorded.
+1551710654654	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1551710654655	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1551710654657	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1551710654657	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1551710654658	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1551710654862	Marionette	INFO	Listening on port 52046
+1551710654863	Marionette	DEBUG	Remote service is active
+1551710655383	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:52079
+1551710655476	Marionette	DEBUG	0 -> [0,1,"newSession",{"capabilities":{"desiredCapabilities":{}}}]
+1551710655477	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+Exiting due to channel error.
+1551973173588	geckodriver	INFO	geckodriver 0.19.1
+1551973173642	geckodriver	INFO	Listening on 127.0.0.1:50232
+1551973175713	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.Sv9JSNS9goQy"
+1551973181875	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551973181876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1551973182358	Marionette	TRACE	Received observer notification profile-after-change
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1551973182822	Marionette	TRACE	Received observer notification toplevel-window-ready
+1551973183010	Marionette	TRACE	Received observer notification command-line-startup
+1551973183010	Marionette	TRACE	Received observer notification nsPref:changed
+1551973183010	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1551973183369	Marionette	TRACE	Received observer notification toplevel-window-ready
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1551973186813	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1551973186814	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1551973187129	Marionette	TRACE	All scripts recorded.
+1551973187130	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1551973187131	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1551973187132	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1551973187132	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1551973187133	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1551973187300	Marionette	INFO	Listening on port 50240
+1551973187300	Marionette	DEBUG	Remote service is active
+1551973187573	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50268
+1551973187626	Marionette	DEBUG	0 -> [0,1,"newSession",{"capabilities":{"desiredCapabilities":{}}}]
+1551973187627	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+Exiting due to channel error.

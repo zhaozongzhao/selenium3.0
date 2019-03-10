@@ -1,0 +1,11 @@
+{
+  "webdriver\u9ad8\u7ea7\u64cd\u4f5c.py::TestDemo::test_AjaxDivoptionByIndex": true,
+  "webdriver\u9ad8\u7ea7\u64cd\u4f5c.py::TestDemo::test_AjaxDivoptionByKeys": true,
+  "webdriver\u9ad8\u7ea7\u64cd\u4f5c.py::TestDemo::test_AjaxDivoptionBywords": true,
+  "webdriver\u9ad8\u7ea7\u64cd\u4f5c.py::TestDemo::test_dataPicker": true,
+  "webdriver\u9ad8\u7ea7\u64cd\u4f5c.py::TestDemo::test_executeScript": true,
+  "webdriver\u9ad8\u7ea7\u64cd\u4f5c.py::TestDemo::test_killWindowProcess": true,
+  "webdriver\u9ad8\u7ea7\u64cd\u4f5c.py::TestDemo::test_scroll": true,
+  "weddiverAPI.py::visitBysou::test_operatewindowhandle": true,
+  "\u9f20\u6807\u64cd\u4f5c.py::Mose::test_simulationLeftClickMoseOfProcess": true
+}

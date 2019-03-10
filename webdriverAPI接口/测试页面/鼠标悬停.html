@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标悬停在某个元素上面</title>
+    <script language="javascript">
+       function showNone()
+       {
+          document.getElementById('div1').style.display = 'none';
+       }
+       function showBlock(){
+          document.getElementById('div1').style.display = 'block';
+    }
+    </script>
+    <style TYPE="text/css">
+        #div1{
+           position:absolute;
+           width:200px;
+           height:115px;
+           z-index:1;
+           left:28px;
+           top:34px;
+           background-color:#0033cc;
+        }
+    </style>
+</head>
+<body onload="showNone()">
+   <div id="div1"></div>
+   <a onmouseover="showBlock()" onmouseout="showNone()" id = 'lick1'>鼠标指过来1</a>
+   <a onmouseover="showBlock()" onmouseout="showNone()" id = 'lick2'>鼠标指过来2</a>
+   <p>鼠标悬浮这里的时候，蓝色的图形框就消失了</p>
+</body>
+</html>
