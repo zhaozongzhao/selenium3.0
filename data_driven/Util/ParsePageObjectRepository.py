@@ -16,7 +16,7 @@ class ParsePageObjectRepository(object):
 
 if __name__ == '__main__':
     pp = ParsePageObjectRepository()
-    print(pp.getItemSection('qqmail_login'))
+    print(pp.getItemSection('zh_login_page'))
     print(pp.getOptionValue('qqmail_addcontactspage','addcontacts_page.createcontactsbtn'))
 
 
