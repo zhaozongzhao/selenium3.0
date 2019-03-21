@@ -1,9 +1,12 @@
 
 from selenium import webdriver
-from selenium.common.exceptions import WebDriverException
-import unittest,traceback,time
+from selenium.common.exceptions import WebDriverException,TimeoutException,NoSuchElementException
+import unittest,traceback,time,os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 
 
 # 更改页面对象的额属性
@@ -37,7 +40,7 @@ class TestDemo(unittest.TestCase):
 
     def setUp(self):
         print('启动chrome')
-        # self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome()
 
     def tearDown(self):
         self.driver.quit()
@@ -179,7 +182,65 @@ class TestDemo(unittest.TestCase):
 
     #无人工干预下自动下载某个文件
 
-    def test_dataPicker(self):
-         url = "www.baidu.com"
-         self.driver  = webdriver.Firefox()
-         self.driver.get(url)
+    # def test_dataPicker(self):
+    #      url = "www.baidu.com"
+    #      self.driver  = webdriver.Firefox()
+    #      self.driver.get(url)
+
+
+    #无人干预上传文件
+    def test_uploadFileBySendKeys(self):
+        url = 'F:\gitstorehouse\selenium3.0\webdriverAPI接口\测试页面\上传文件.html'
+        self.driver.get(url)
+        try:
+            #创建一个显示等待
+            wait = WebDriverWait(self.driver,5,0.5)
+            #判断被测上传按钮是否处于克点击状态
+            wait.until(EC.element_to_be_clickable((By.ID,'file')))
+        except TimeoutException as e:
+            traceback.print_exc()
+        except NoSuchElementException as e:
+            traceback.print_exc()
+        except Exception as e:
+            traceback.print_exc()
+        else:
+            fileb0x =  self.driver.find_element(By.XPATH,'//*[@id="file"]')
+            #在文件上传框输入文件目录
+            fileb0x.send_keys('F:\gitstorehouse\selenium3.0\webdriverAPI接口\测试页面\javaScript的alert弹框.html')
+            time.sleep(4)
+            #定位提交按钮，
+            filesumbitButton = self.driver.find_element(By.ID,'filesubmit')
+            #点击提交按钮完成文件上传操作
+            filesumbitButton.click()
+
+        #使用第三方Autoit 上传文件
+
+    def test_uploadfileByAutoit(self):
+        url = 'F:\gitstorehouse\selenium3.0\webdriverAPI接口\测试页面\上传文件.html'
+        self.driver.get(url)
+        try:
+            # 创建一个显示等待
+            wait = WebDriverWait(self.driver, 5, 0.5)
+            # 判断被测上传按钮是否处于克点击状态
+            wait.until(EC.element_to_be_clickable((By.ID, 'file')))
+        except TimeoutException as e:
+            traceback.print_exc()
+        except NoSuchElementException as e:
+            traceback.print_exc()
+        except Exception as e:
+            traceback.print_exc()
+        else:
+            fileb0x = self.driver.find_element(By.XPATH, '//*[@id="file"]')
+            # 点击调出文件上传框
+            fileb0x.click()
+            #通过os模块执行system方法执行生成的test.exe文件
+            os.system('D:\\test.exe')
+            time.sleep(5)
+            filesumbitButton = self.driver.find_element(By.ID, 'filesubmit')
+            # 点击提交按钮完成文件上传操作
+            filesumbitButton.click()
+
+
+
+
+
