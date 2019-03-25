@@ -39,9 +39,11 @@ class TestDemo(unittest.TestCase):
             suobject.click()
             suobject.send_keys('正文验证')
             time.sleep(1)
+            #通过switch_to 切换为frame
             self.driver.switch_to.frame(self.driver.find_element(By.XPATH,'//*[@id="ueditor_0"]'))
             editBox = self.driver.find_element(By.XPATH,'/html/body')
             editBox.send_keys('邮件正文')
+            #跳出frame
             self.driver.switch_to.default_content()
             self.driver.find_element(By.XPATH,'//span[.="发送"]').click()
             wait.until(EC.visibility_of_element_located((By.XPATH,'//span[text = "发送成功"]')))
@@ -70,10 +72,11 @@ class TestDemo(unittest.TestCase):
         suobject.click()
         suobject.send_keys('正文验证')
         time.sleep(1)
+        #通过switch_to
         self.driver.switch_to.frame(self.driver.find_element(By.XPATH, '//*[@id="ueditor_0"]'))
         time.sleep(2)
+        #通过javascript将页面内容输入到富文本框中
         self.driver.execute_script("document.getElementsByTagName('body')[0].innerHTML='<b>测试数据<b>;'")
-
         self.driver.switch_to.default_content()
         self.driver.find_element(By.XPATH, '//span[.="发送"]').click()
         wait.until(EC.visibility_of_element_located((By.XPATH, '//span[text = "发送成功"]')))
