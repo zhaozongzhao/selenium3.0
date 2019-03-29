@@ -41,6 +41,7 @@ class ImageCompare(object):
         li,ri = self.make_regalur_image(Image.open(lf)),self.make_regalur_image(Image.open(rf))
         return self.clar_similar(li,ri)
 
+
 class TestDome(unittest.TestCase):
     def setUp(self):
         self.IC = ImageCompare()
@@ -50,14 +51,14 @@ class TestDome(unittest.TestCase):
         self.driver.quit()
 
     def test_ImageComparioson(self):
-        # url = 'http://www.sogou.com'
-        # self.driver.get(url)
-        # time.sleep(3)
-        # self.driver.save_screenshot('/Users/hnbl009/gitfile/selenium3.0/webdriverAPI接口/测试页面/test1.png')
-        # self.driver.get(url)
-        # time.sleep(3)
-        # self.driver.get_screenshot_as_file('/Users/hnbl009/gitfile/selenium3.0/webdriverAPI接口/测试页面/test2.png')
-        # time.sleep(3)
+        url = 'http://www.sogou.com'
+        self.driver.get(url)
+        time.sleep(3)
+        self.driver.save_screenshot('/Users/hnbl009/gitfile/selenium3.0/webdriverAPI接口/测试页面/test1.png')
+        self.driver.get(url)
+        time.sleep(3)
+        self.driver.get_screenshot_as_file('/Users/hnbl009/gitfile/selenium3.0/webdriverAPI接口/测试页面/test2.png')
+        time.sleep(3)
         print(self.IC.calr_similar_by_path('/Users/hnbl009/gitfile/selenium3.0/webdriverAPI接口/测试页面/test1.png',
                                            '/Users/hnbl009/gitfile/selenium3.0/webdriverAPI接口/测试页面/test2.png') * 100)
 
