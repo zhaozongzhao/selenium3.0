@@ -3,7 +3,8 @@ import logging.config
 from PageJectVar.var import *
 
 #读取配置文件
-logging.config.fileConfig(logobject_path)
+# logging.config.fileConfig('F:/gitstorehouse/selenium3.0/data_driven/Conf/logger.conf')
+logging.config.fileConfig(logobject_path, defaults=None, disable_existing_loggers=True)
 
 #选择日志格式
 logger =  logging.getLogger('example02')
@@ -20,6 +21,4 @@ def debug(message):
 
 if __name__ == '__main__':
 
- info('测试')
- error('测试1')
- debug('测试2')
+ info('再输入框输入搜索关键字‘关荣之路关荣之路自动化测试’')

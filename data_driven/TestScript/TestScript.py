@@ -72,7 +72,7 @@ for id,row in enumerate(rows):
 
 
 
-# login(driver,'3031371046','zzz284117')
-# add_contact(driver,'中岛一','2206321864@qq.com','18301565568')
-# driver.quit()row[1].value,row[2].value,row[3].value
+login(driver,'3031371046','zzz284117')
+add_contact(driver,'中岛一','2206321864@qq.com','18301565568')
+driver.quit(row[1].value,row[2].value,row[3].value)
 

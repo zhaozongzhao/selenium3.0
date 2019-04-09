@@ -3,3 +3,7 @@ Thu, 01 Mar 2018 10:01:50 Log.py[line:19] INFO 访问百度界面
 Thu, 01 Mar 2018 10:01:50 Log.py[line:19] INFO 再输入框输入搜索关键字‘关荣之路关荣之路自动化测试’
 Thu, 01 Mar 2018 10:01:50 Log.py[line:19] INFO 单击搜索按钮
 Thu, 01 Mar 2018 10:01:50 Log.py[line:19] INFO =================测试用例执行完成===============
+Wed, 03 Apr 2019 00:31:22 Log.py[line:11] DEBUG 测试
+Wed, 03 Apr 2019 00:33:31 Log.py[line:11] DEBUG 测试
+Wed, 03 Apr 2019 00:33:44 Log.py[line:11] DEBUG 111
+Wed, 03 Apr 2019 00:34:33 Log.py[line:19] INFO 再输入框输入搜索关键字‘关荣之路关荣之路自动化测试’

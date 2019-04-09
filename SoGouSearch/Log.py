@@ -17,3 +17,6 @@ def warning(message):
 def info(message):
      #打印info级别的日志
      logging.info(message)
+
+
+info('再输入框输入搜索关键字‘关荣之路关荣之路自动化测试’')
