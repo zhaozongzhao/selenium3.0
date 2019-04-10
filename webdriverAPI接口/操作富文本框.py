@@ -80,6 +80,7 @@ class TestDemo(unittest.TestCase):
         self.driver.switch_to.default_content()
         self.driver.find_element(By.XPATH, '//span[.="发送"]').click()
         wait.until(EC.visibility_of_element_located((By.XPATH, '//span[text = "发送成功"]')))
+        wait.until(EC.visibility_of_element_located((By.XPATH,'//span[text = "发送成功"]')))
 
 
 
