@@ -72,6 +72,9 @@ class TestDemo(unittest.TestCase):
         suobject.click()
         suobject.send_keys('正文验证')
         time.sleep(1)
+
+
+
         #通过switch_to
         self.driver.switch_to.frame(self.driver.find_element(By.XPATH, '//*[@id="ueditor_0"]'))
         time.sleep(2)
