@@ -165,3 +165,114 @@ Exiting due to channel error.
 1551973187626	Marionette	DEBUG	0 -> [0,1,"newSession",{"capabilities":{"desiredCapabilities":{}}}]
 1551973187627	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
 Exiting due to channel error.
+1555343947660	geckodriver	INFO	geckodriver 0.19.1
+1555343947707	geckodriver	INFO	Listening on 127.0.0.1:54571
+1555343949729	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.Nm0jQG7I8diy"
+1555343953255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555343953256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1555343953601	Marionette	TRACE	Received observer notification profile-after-change
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555343954031	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555343954179	Marionette	TRACE	Received observer notification command-line-startup
+1555343954180	Marionette	TRACE	Received observer notification nsPref:changed
+1555343954180	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555343954479	Marionette	TRACE	Received observer notification toplevel-window-ready
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555343958158	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555343958159	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555343958692	Marionette	TRACE	All scripts recorded.
+1555343958693	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555343958693	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555343958695	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555343958695	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555343958696	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555343958873	Marionette	INFO	Listening on port 54585
+1555343958873	Marionette	DEBUG	Remote service is active
+1555343959467	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:54631
+1555343959472	Marionette	DEBUG	0 -> [0,1,"newSession",{"capabilities":{"desiredCapabilities":{}}}]
+1555343959473	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+1555344124883	geckodriver	INFO	geckodriver 0.19.1
+1555344124931	geckodriver	INFO	Listening on 127.0.0.1:55159
+1555344126952	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.fJcg335Rwx8c"
+1555344128922	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555344128922	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1555344129196	Marionette	TRACE	Received observer notification profile-after-change
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555344129499	Marionette	TRACE	Received observer notification toplevel-window-ready
+1555344129586	Marionette	TRACE	Received observer notification command-line-startup
+1555344129586	Marionette	TRACE	Received observer notification nsPref:changed
+1555344129587	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555344129686	Marionette	TRACE	Received observer notification toplevel-window-ready
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555344132279	Marionette	TRACE	Received observer notification sessionstore-windows-restored
+1555344132280	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1555344132689	Marionette	TRACE	All scripts recorded.
+1555344132689	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555344132690	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555344132694	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555344132694	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555344132699	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555344132852	Marionette	INFO	Listening on port 55167
+1555344132853	Marionette	DEBUG	Remote service is active
+1555344133061	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55194
+1555344133119	Marionette	DEBUG	0 -> [0,1,"newSession",{"capabilities":{"desiredCapabilities":{}}}]
+1555344133120	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:179: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1555345491536	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.2PFqkH8rTTs1"
+1555345493054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555345493055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555345497634	Marionette	INFO	Listening on port 58211
+[Parent 10812, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12860, Chrome[Parent 10812, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555345541891	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.bAEQzabQw3wS"
+1555345543304	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555345543304	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555345547457	Marionette	INFO	Listening on port 58395
+1555345592125	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.dPupQ7FqaOXU"
+1555345593547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555345593547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555345597934	Marionette	INFO	Listening on port 58554
+[Parent 12124, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/[Parent 12124, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555345686671	Marionette	INFO	Stopped listening on port 58554
+1555516429394	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.Fo2RceATqhq0"
+1555516433013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555516433013	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1555516438213	Marionette	INFO	Listening on port 51227
+[Parent 9596, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[Child 9032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromi[Child 10964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 9596, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+[Child 11092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1555516602553	Marionette	INFO	Stopped listening on port 51227

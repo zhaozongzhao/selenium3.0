@@ -8,6 +8,7 @@
   "webdriver\u9ad8\u7ea7\u64cd\u4f5c.py::TestDemo::test_killWindowProcess": true,
   "webdriver\u9ad8\u7ea7\u64cd\u4f5c.py::TestDemo::test_scroll": true,
   "weddiverAPI.py::visitBysou::test_operatewindowhandle": true,
+  "\u6307\u5b9acherome\u4e0b\u8f7d\u4f4d\u7f6e.py::TestDemo::test_downloadFileByChrome": true,
   "\u64cd\u4f5c\u5bcc\u6587\u672c\u6846.py::TestDemo::test_sohumail": true,
   "\u9f20\u6807\u64cd\u4f5c.py::Mose::test_simulationLeftClickMoseOfProcess": true
 }
