@@ -1,7 +1,7 @@
 import logging
 import logging.config
 
-logobject_path =  'F:\gitstorehouse\selenium3.0\DataDriverProject'
+logobject_path =  'F:\gitstorehouse\selenium3.0\DataDriverProject\logger1.conf'
 
 #读取配置文件
 # logging.config.fileConfig('F:/gitstorehouse/selenium3.0/data_driven/Conf/logger.conf')
