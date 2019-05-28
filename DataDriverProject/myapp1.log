@@ -1,96 +1,112 @@
-Mon, 06 May 2019 23:49:53 log.py[line:18] INFO 测试数据邓肯1||蒂姆
-Mon, 06 May 2019 23:49:54 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:49:54 log.py[line:18] INFO 输入信息邓肯1
-Mon, 06 May 2019 23:49:57 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:49:57 log.py[line:18] INFO 输入邓肯1，验证蒂姆，通过
-Mon, 06 May 2019 23:50:33 log.py[line:18] INFO 测试数据邓肯1||蒂姆
-Mon, 06 May 2019 23:50:34 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:50:34 log.py[line:18] INFO 输入信息邓肯1
-Mon, 06 May 2019 23:50:37 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:50:37 log.py[line:18] INFO 输入邓肯1，验证蒂姆，通过
-Mon, 06 May 2019 23:50:44 log.py[line:18] INFO 测试数据疯狂动物城||蒂姆
-Mon, 06 May 2019 23:50:46 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:50:46 log.py[line:18] INFO 输入信息疯狂动物城
-Mon, 06 May 2019 23:50:49 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:50:57 log.py[line:18] INFO 测试数据邓肯3||蒂姆
-Mon, 06 May 2019 23:50:59 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:50:59 log.py[line:18] INFO 输入信息邓肯3
-Mon, 06 May 2019 23:51:03 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:51:03 log.py[line:18] INFO 输入邓肯3，验证蒂姆，通过
-Mon, 06 May 2019 23:51:10 log.py[line:18] INFO 测试数据邓肯4||蒂姆
-Mon, 06 May 2019 23:51:11 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:51:11 log.py[line:18] INFO 输入信息邓肯4
-Mon, 06 May 2019 23:51:15 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:51:15 log.py[line:18] INFO 输入邓肯4，验证蒂姆，通过
-Mon, 06 May 2019 23:51:22 log.py[line:18] INFO 测试数据邓肯5||蒂姆
-Mon, 06 May 2019 23:51:23 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:51:23 log.py[line:18] INFO 输入信息邓肯5
-Mon, 06 May 2019 23:51:26 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:51:26 log.py[line:18] INFO 输入邓肯5，验证蒂姆，通过
-Mon, 06 May 2019 23:52:25 log.py[line:18] INFO 测试数据邓肯1||蒂姆
-Mon, 06 May 2019 23:52:26 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:52:26 log.py[line:18] INFO 输入信息邓肯1
-Mon, 06 May 2019 23:52:29 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:52:29 log.py[line:18] INFO 输入邓肯1，验证蒂姆，通过
-Mon, 06 May 2019 23:52:36 log.py[line:18] INFO 测试数据疯狂动物城||蒂姆
-Mon, 06 May 2019 23:52:38 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:52:38 log.py[line:18] INFO 输入信息疯狂动物城
-Mon, 06 May 2019 23:52:41 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:52:49 log.py[line:18] INFO 测试数据邓肯3||蒂姆
-Mon, 06 May 2019 23:52:53 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:52:53 log.py[line:18] INFO 输入信息邓肯3
-Mon, 06 May 2019 23:52:56 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:52:56 log.py[line:18] INFO 输入邓肯3，验证蒂姆，通过
-Mon, 06 May 2019 23:53:03 log.py[line:18] INFO 测试数据邓肯4||蒂姆
-Mon, 06 May 2019 23:53:04 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:53:04 log.py[line:18] INFO 输入信息邓肯4
-Mon, 06 May 2019 23:53:07 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:53:07 log.py[line:18] INFO 输入邓肯4，验证蒂姆，通过
-Mon, 06 May 2019 23:53:13 log.py[line:18] INFO 测试数据邓肯5||蒂姆
-Mon, 06 May 2019 23:53:14 log.py[line:18] INFO 登录地址https://www.baidu.com
-Mon, 06 May 2019 23:53:14 log.py[line:18] INFO 输入信息邓肯5
-Mon, 06 May 2019 23:53:18 log.py[line:18] INFO 校验数据蒂姆
-Mon, 06 May 2019 23:53:18 log.py[line:18] INFO 输入邓肯5，验证蒂姆，通过
-Tue, 07 May 2019 00:08:34 log.py[line:18] INFO 测试数据邓肯1||蒂姆
-Tue, 07 May 2019 00:08:35 log.py[line:18] INFO 登录地址https://www.baidu.com
-Tue, 07 May 2019 00:08:35 log.py[line:18] INFO 输入信息邓肯1
-Tue, 07 May 2019 00:08:39 log.py[line:18] INFO 校验数据蒂姆
-Tue, 07 May 2019 00:08:46 log.py[line:18] INFO 测试数据疯狂动物城||蒂姆
-Tue, 07 May 2019 00:08:47 log.py[line:18] INFO 登录地址https://www.baidu.com
-Tue, 07 May 2019 00:08:47 log.py[line:18] INFO 输入信息疯狂动物城
-Tue, 07 May 2019 00:08:50 log.py[line:18] INFO 校验数据蒂姆
-Tue, 07 May 2019 00:08:57 log.py[line:18] INFO 测试数据邓肯3||蒂姆
-Tue, 07 May 2019 00:08:58 log.py[line:18] INFO 登录地址https://www.baidu.com
-Tue, 07 May 2019 00:08:58 log.py[line:18] INFO 输入信息邓肯3
-Tue, 07 May 2019 00:09:02 log.py[line:18] INFO 校验数据蒂姆
-Tue, 07 May 2019 00:09:02 log.py[line:18] INFO 输入邓肯3，验证蒂姆，通过
-Tue, 07 May 2019 00:09:10 log.py[line:18] INFO 测试数据邓肯4||蒂姆
-Tue, 07 May 2019 00:09:12 log.py[line:18] INFO 登录地址https://www.baidu.com
-Tue, 07 May 2019 00:09:12 log.py[line:18] INFO 输入信息邓肯4
-Tue, 07 May 2019 00:09:15 log.py[line:18] INFO 校验数据蒂姆
-Tue, 07 May 2019 00:09:15 log.py[line:18] INFO 输入邓肯4，验证蒂姆，通过
-Tue, 07 May 2019 00:09:23 log.py[line:18] INFO 测试数据邓肯5||蒂姆
-Tue, 07 May 2019 00:09:27 log.py[line:18] INFO 登录地址https://www.baidu.com
-Tue, 07 May 2019 00:09:27 log.py[line:18] INFO 输入信息邓肯5
-Tue, 07 May 2019 00:09:30 log.py[line:18] INFO 校验数据蒂姆
-Tue, 07 May 2019 00:09:30 log.py[line:18] INFO 输入邓肯5，验证蒂姆，通过
-Thu, 09 May 2019 00:04:41 log.py[line:18] INFO 测试数据['搜索词', '期望值']
-Thu, 09 May 2019 00:04:42 log.py[line:18] INFO 登录地址https://www.baidu.com
-Thu, 09 May 2019 00:05:36 log.py[line:18] INFO 测试数据['搜索词', '期望值']
-Thu, 09 May 2019 00:05:37 log.py[line:18] INFO 登录地址https://www.baidu.com
-Thu, 09 May 2019 00:05:37 log.py[line:18] INFO 输入信息搜索词
-Thu, 09 May 2019 00:05:40 log.py[line:18] INFO 校验数据期望值
-Thu, 09 May 2019 00:05:48 log.py[line:18] INFO 测试数据['邓肯', '蒂姆']
-Thu, 09 May 2019 00:05:49 log.py[line:18] INFO 登录地址https://www.baidu.com
-Thu, 09 May 2019 00:05:49 log.py[line:18] INFO 输入信息邓肯
-Thu, 09 May 2019 00:05:52 log.py[line:18] INFO 校验数据蒂姆
-Thu, 09 May 2019 00:05:52 log.py[line:18] INFO 输入邓肯，验证蒂姆，通过
-Thu, 09 May 2019 00:06:00 log.py[line:18] INFO 测试数据['乔丹', '迈克尔']
-Thu, 09 May 2019 00:06:01 log.py[line:18] INFO 登录地址https://www.baidu.com
-Thu, 09 May 2019 00:06:01 log.py[line:18] INFO 输入信息乔丹
-Thu, 09 May 2019 00:06:04 log.py[line:18] INFO 校验数据迈克尔
-Thu, 09 May 2019 00:06:04 log.py[line:18] INFO 输入乔丹，验证迈克尔，通过
-Thu, 09 May 2019 00:06:11 log.py[line:18] INFO 测试数据['库里', '斯蒂芬']
-Thu, 09 May 2019 00:06:12 log.py[line:18] INFO 登录地址https://www.baidu.com
-Thu, 09 May 2019 00:06:12 log.py[line:18] INFO 输入信息库里
-Thu, 09 May 2019 00:06:15 log.py[line:18] INFO 校验数据斯蒂芬
+Wed, 15 May 2019 23:39:16 log.py[line:18] INFO 测试数据('selenium', '233')
+Wed, 15 May 2019 23:39:17 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:39:17 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:39:21 log.py[line:18] INFO 校验数据233
+Wed, 15 May 2019 23:39:21 log.py[line:18] INFO 输入selenium，验证233，通过
+Wed, 15 May 2019 23:39:28 log.py[line:18] INFO 测试数据('selenium', 'sssss')
+Wed, 15 May 2019 23:39:29 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:39:29 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:39:33 log.py[line:18] INFO 校验数据sssss
+Wed, 15 May 2019 23:39:40 log.py[line:18] INFO 测试数据('Http权威指南', '古吉尔')
+Wed, 15 May 2019 23:39:41 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:39:41 log.py[line:18] INFO 输入信息Http权威指南
+Wed, 15 May 2019 23:39:45 log.py[line:18] INFO 校验数据古吉尔
+Wed, 15 May 2019 23:39:53 log.py[line:18] INFO 测试数据('selenium', 'sssss')
+Wed, 15 May 2019 23:39:54 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:39:54 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:39:57 log.py[line:18] INFO 校验数据sssss
+Wed, 15 May 2019 23:40:05 log.py[line:18] INFO 测试数据('Http权威指南', '古吉尔')
+Wed, 15 May 2019 23:40:06 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:40:06 log.py[line:18] INFO 输入信息Http权威指南
+Wed, 15 May 2019 23:40:09 log.py[line:18] INFO 校验数据古吉尔
+Wed, 15 May 2019 23:40:17 log.py[line:18] INFO 测试数据('赵宗召', '入宫中抚养')
+Wed, 15 May 2019 23:40:18 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:40:18 log.py[line:18] INFO 输入信息赵宗召
+Wed, 15 May 2019 23:40:21 log.py[line:18] INFO 校验数据入宫中抚养
+Wed, 15 May 2019 23:41:28 log.py[line:18] INFO 测试数据('selenium', '233')
+Wed, 15 May 2019 23:41:29 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:41:29 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:41:32 log.py[line:18] INFO 校验数据233
+Wed, 15 May 2019 23:41:33 log.py[line:18] INFO 输入selenium，验证233，通过
+Wed, 15 May 2019 23:41:40 log.py[line:18] INFO 测试数据('selenium', 'sssss')
+Wed, 15 May 2019 23:42:45 log.py[line:18] INFO 测试数据('selenium', '233')
+Wed, 15 May 2019 23:42:50 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:42:50 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:42:53 log.py[line:18] INFO 校验数据233
+Wed, 15 May 2019 23:42:53 log.py[line:18] INFO 输入selenium，验证233，通过
+Wed, 15 May 2019 23:46:13 log.py[line:18] INFO 测试数据('selenium', '233')
+Wed, 15 May 2019 23:46:14 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:46:14 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:47:07 log.py[line:18] INFO 校验数据233
+Wed, 15 May 2019 23:49:56 log.py[line:18] INFO 测试数据('selenium', '233')
+Wed, 15 May 2019 23:49:57 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:49:57 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:50:05 log.py[line:18] INFO 校验数据233
+Wed, 15 May 2019 23:50:35 log.py[line:18] INFO #####################################################################
+Wed, 15 May 2019 23:50:55 log.py[line:18] INFO 输入selenium，验证233，通过
+Wed, 15 May 2019 23:51:07 log.py[line:18] INFO 测试数据('selenium', 'sssss')
+Wed, 15 May 2019 23:51:09 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:51:09 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:52:49 log.py[line:18] INFO 测试数据('selenium', '233')
+Wed, 15 May 2019 23:52:50 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:52:50 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:52:56 log.py[line:18] INFO 校验数据233
+Wed, 15 May 2019 23:53:10 log.py[line:18] INFO #####################################################################
+Wed, 15 May 2019 23:53:33 log.py[line:18] INFO 输入selenium，验证233，通过
+Wed, 15 May 2019 23:54:55 log.py[line:18] INFO 测试数据('selenium', '233')
+Wed, 15 May 2019 23:54:56 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:54:56 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:55:04 log.py[line:18] INFO 校验数据233
+Wed, 15 May 2019 23:55:22 log.py[line:18] INFO #####################################################################
+Wed, 15 May 2019 23:55:22 log.py[line:18] INFO 输入selenium，验证233，通过
+Wed, 15 May 2019 23:55:29 log.py[line:18] INFO 测试数据('selenium', 'sssss')
+Wed, 15 May 2019 23:55:30 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:55:30 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:56:25 log.py[line:18] INFO 校验数据sssss
+Wed, 15 May 2019 23:56:31 log.py[line:18] INFO 测试数据('Http权威指南', '古吉尔')
+Wed, 15 May 2019 23:56:32 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:56:32 log.py[line:18] INFO 输入信息Http权威指南
+Wed, 15 May 2019 23:56:35 log.py[line:18] INFO 校验数据古吉尔
+Wed, 15 May 2019 23:56:42 log.py[line:18] INFO 测试数据('selenium', 'sssss')
+Wed, 15 May 2019 23:56:44 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:56:44 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:56:47 log.py[line:18] INFO 校验数据sssss
+Wed, 15 May 2019 23:56:53 log.py[line:18] INFO 测试数据('Http权威指南', '古吉尔')
+Wed, 15 May 2019 23:56:54 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:56:54 log.py[line:18] INFO 输入信息Http权威指南
+Wed, 15 May 2019 23:56:58 log.py[line:18] INFO 校验数据古吉尔
+Wed, 15 May 2019 23:57:04 log.py[line:18] INFO 测试数据('赵宗召', '入宫中抚养')
+Wed, 15 May 2019 23:57:05 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:57:05 log.py[line:18] INFO 输入信息赵宗召
+Wed, 15 May 2019 23:57:08 log.py[line:18] INFO 校验数据入宫中抚养
+Wed, 15 May 2019 23:59:52 log.py[line:18] INFO 测试数据('selenium', '233')
+Wed, 15 May 2019 23:59:53 log.py[line:18] INFO 登录地址https://www.baidu.com
+Wed, 15 May 2019 23:59:53 log.py[line:18] INFO 输入信息selenium
+Wed, 15 May 2019 23:59:57 log.py[line:18] INFO 校验数据233
+Wed, 15 May 2019 23:59:57 log.py[line:18] INFO #####################################################################
+Wed, 15 May 2019 23:59:57 log.py[line:18] INFO 输入selenium，验证233，通过
+Thu, 16 May 2019 00:00:04 log.py[line:18] INFO 测试数据('selenium', 'sssss')
+Thu, 16 May 2019 00:00:06 log.py[line:18] INFO 登录地址https://www.baidu.com
+Thu, 16 May 2019 00:00:06 log.py[line:18] INFO 输入信息selenium
+Thu, 16 May 2019 00:00:09 log.py[line:18] INFO 校验数据sssss
+Thu, 16 May 2019 00:00:09 log.py[line:18] INFO #####################################################################
+Thu, 16 May 2019 00:00:16 log.py[line:18] INFO 测试数据('Http权威指南', '古吉尔')
+Thu, 16 May 2019 00:00:17 log.py[line:18] INFO 登录地址https://www.baidu.com
+Thu, 16 May 2019 00:00:17 log.py[line:18] INFO 输入信息Http权威指南
+Thu, 16 May 2019 00:00:21 log.py[line:18] INFO 校验数据古吉尔
+Thu, 16 May 2019 00:00:21 log.py[line:18] INFO #####################################################################
+Thu, 16 May 2019 00:00:28 log.py[line:18] INFO 测试数据('selenium', 'sssss')
+Thu, 16 May 2019 00:00:31 log.py[line:18] INFO 登录地址https://www.baidu.com
+Thu, 16 May 2019 00:00:31 log.py[line:18] INFO 输入信息selenium
+Thu, 16 May 2019 00:00:34 log.py[line:18] INFO 校验数据sssss
+Thu, 16 May 2019 00:00:34 log.py[line:18] INFO #####################################################################
+Thu, 16 May 2019 00:00:41 log.py[line:18] INFO 测试数据('Http权威指南', '古吉尔')
+Thu, 16 May 2019 00:00:43 log.py[line:18] INFO 登录地址https://www.baidu.com
+Thu, 16 May 2019 00:00:43 log.py[line:18] INFO 输入信息Http权威指南
+Thu, 16 May 2019 00:00:46 log.py[line:18] INFO 校验数据古吉尔
+Thu, 16 May 2019 00:00:46 log.py[line:18] INFO #####################################################################
+Thu, 16 May 2019 00:00:54 log.py[line:18] INFO 测试数据('赵宗召', '入宫中抚养')
+Thu, 16 May 2019 00:00:56 log.py[line:18] INFO 登录地址https://www.baidu.com
+Thu, 16 May 2019 00:00:56 log.py[line:18] INFO 输入信息赵宗召
+Thu, 16 May 2019 00:00:59 log.py[line:18] INFO 校验数据入宫中抚养
+Thu, 16 May 2019 00:00:59 log.py[line:18] INFO #####################################################################

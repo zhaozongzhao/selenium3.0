@@ -1,5 +1,5 @@
 #创建数据库语句
-create_database = ' CREATE DATABASE IF NOT EXISTS gloryrody DEFAULT CHARSET utf8 COLLATE utf8_general_ci; '
+create_database = ' CREATE DATABASE IF NOT EXISTS gloryrody1 DEFAULT CHARSET utf8 COLLATE utf8_general_ci; '
 
 #创建数据表
 create_table = '''
@@ -10,3 +10,6 @@ author varchar(20),
 PRIMARY KEY(id)
 )engine=InnoDB DEFAULT CHARSET=utf8;
 '''
+
+#查询测试数据
+select_table = 'SELECT bookname,author FROM `testdata`;'
