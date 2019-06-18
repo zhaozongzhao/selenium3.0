@@ -1,6 +1,7 @@
+
 from selenium import webdriver
 import pytest
-from Pageobject import Login_page as LD
+from  Pageobject import Login_page as LD
 from  testDats import login_data as TD
 
 @pytest.fixture
@@ -16,3 +17,4 @@ def login():
     login1.login_button(TD.login_user_success,TD.login_password_success)
     print('登陆完成')
     return driver
+
