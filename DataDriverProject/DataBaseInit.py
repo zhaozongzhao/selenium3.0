@@ -80,3 +80,5 @@ if __name__ == '__main__':
       db.inserDatas()
       print('数据初始化完成')
 
+
+
