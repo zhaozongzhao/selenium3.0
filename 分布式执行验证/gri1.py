@@ -3,24 +3,19 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 driver = webdriver.Remote(
-    command_executor="http://192.168.0.100:6655/wd/hub",
+    command_executor="http://192.168.0.102:5555/wd/hub",
     desired_capabilities= {
-        "browserName" : 'chrome',
-        "video": 'true',
-         'platform': 'WINDOWS',
-         'platformName': 'WINDOWS'
+        "browserName" : "chrome",
+        "version" : '75.0.3770.100',
+        "video": "true",
+        "platform": "MAC",
+        'javascriptEnable':True
     }
 
 )
+driver.get('http://www.baidu.com')
+time.sleep(5)
+assert '百度' in driver.title
+driver.quit()
 
-# time.sleep(3)
-# from selenium import webdriver
-# chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_argument('--headless')
-# chrome_options.add_argument('--disable-gpu')
-# driver = webdriver.Chrome(chrome_options=chrome_options)
-# driver.get('http://www.baidu.com')
-# driver.save_screenshot('ceshi1.png')
 
-# driver = webdriver.Chrome()
-# driver.get('http://www.baidu.com')
