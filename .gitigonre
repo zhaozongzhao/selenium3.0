@@ -10,7 +10,8 @@ Desktop.ini
 *.iml
 dist
 build
-
+.idea
+.vscode
 # My configurations:
 db.ini
 deploy_key_rsa
